@@ -24,6 +24,7 @@ class Derived2(Derived1):
         print("z = " + str(self.z))
 
 ob1 = Base(5)
+
 ob1.get_x()
 
 ob2 = Derived1(1,2)
